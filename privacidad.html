@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Política de privacidad · SeniorCare AI</title><link rel="stylesheet" href="estilo.css"></head><body>
+<header><div class="c"><h1>Política de privacidad</h1><div>SeniorCare AI · Vigente desde el 25 de octubre de 2026</div>
+<nav><a href="index.html">Inicio</a><a href="privacidad.html">Política de privacidad</a><a href="terminos.html">Condiciones de uso</a></nav></div></header>
+<main class="c">
+<section class="tarjeta"><h2>1. Responsable</h2><p>Galo Alexander Guerrero Encalada, estudiante de Ingeniería en Sistemas Biomédicos de la Universidad Católica de Cuenca, responsable del prototipo SeniorCare AI. Contacto: <a href="mailto:encaladagaloalexander@gmail.com">encaladagaloalexander@gmail.com</a>.</p></section>
+<section class="tarjeta"><h2>2. Alcance</h2><p>SeniorCare AI es un prototipo académico que funciona en un equipo local para pruebas de laboratorio. Las pruebas se realizan con registros simulados y con datos públicos anonimizados de la encuesta NHANES. El prototipo no está publicado como servicio abierto al público.</p></section>
+<section class="tarjeta"><h2>3. Datos que trata el prototipo</h2><ul>
+<li>Datos de cuenta: nombre, correo electrónico, rol y contraseña almacenada de forma cifrada (hash).</li>
+<li>Datos de la ficha del adulto mayor y mediciones registradas manualmente (presión arterial, frecuencia cardiaca, peso, talla, glucosa opcional, estado de ánimo y actividades).</li>
+<li>Contactos de emergencia y, si lo autorizan, su correo electrónico.</li>
+<li>Registros de auditoría de las acciones realizadas en el sistema.</li></ul>
+<p>Los datos de salud se consideran de categoría especial según la Ley Orgánica de Protección de Datos Personales del Ecuador y se tratan con medidas de seguridad acordes.</p></section>
+<section class="tarjeta"><h2>4. Datos de Google (Gmail)</h2><p>Cuando una persona autorizada conecta su cuenta de Gmail como remitente, SeniorCare AI solicita únicamente:</p><ul>
+<li><code>https://www.googleapis.com/auth/gmail.send</code>: enviar avisos genéricos a contactos de emergencia que dieron su consentimiento.</li>
+<li><code>openid</code> y <code>email</code>: comprobar que la cuenta conectada coincide con el remitente indicado.</li></ul>
+<p>El prototipo <strong>no lee, no guarda y no analiza</strong> correos de la bandeja. Solo conserva, en el equipo local, el token de actualización necesario para enviar y la dirección remitente. Los avisos no incluyen nombres, mediciones ni diagnósticos.</p>
+<p>El uso y la transferencia de la información recibida de las API de Google se ajustan a la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de API de Google</a>, incluidos los requisitos de uso limitado. Los datos de Google no se venden, no se usan para publicidad ni para entrenar modelos de inteligencia artificial y no se comparten con terceros.</p></section>
+<section class="tarjeta"><h2>5. Finalidad</h2><p>Los datos se usan solo para demostrar y evaluar técnicamente las funciones del prototipo en el marco del trabajo de titulación. No se realizan diagnósticos clínicos automatizados.</p></section>
+<section class="tarjeta"><h2>6. Conservación y eliminación</h2><p>Los datos se guardan en una base de datos local con acceso restringido. Una persona puede pedir la eliminación de su cuenta y de sus datos escribiendo al correo de contacto. La autorización de Gmail puede revocarse en cualquier momento desde <a href="https://myaccount.google.com/permissions">la configuración de seguridad de la cuenta de Google</a>; al revocarla el prototipo deja de poder enviar avisos.</p></section>
+<section class="tarjeta"><h2>7. Seguridad</h2><p>Contraseñas con hash Argon2, sesiones revocables, control de acceso por roles, registros de auditoría y almacenamiento de credenciales fuera del código fuente.</p></section>
+<section class="tarjeta"><h2>8. Cambios</h2><p>Cualquier cambio de esta política se publicará en esta página con su fecha de vigencia.</p></section>
+</main><footer class="c">SeniorCare AI · Cuenca, Ecuador</footer></body></html>
